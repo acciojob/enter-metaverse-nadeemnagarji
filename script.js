@@ -2,6 +2,8 @@
 const para = document.querySelector("#status")
 function changeText(){
 	const heading = document.createElement("h1")
+	para.innerText=""
 	heading.innerText = "Entered Metaverse"
-	para.replaceWith(heading)
+	para.appendChild(heading)
+	
 }
